@@ -135,7 +135,7 @@ const DashboardAicc = () => {
           );
 
           let labelX = pointPosition.x + (pointPosition.x - centerX) * 0.7;
-          let labelY = pointPosition.y + (pointPosition.y - centerY) * 0.3;
+          let labelY = pointPosition.y + (pointPosition.y - centerY) * 0.2;
 
           // 부모 div 밖으로 나가지 않도록
           labelX = Math.max(0, Math.min(containerWidth, labelX));
