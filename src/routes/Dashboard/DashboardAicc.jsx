@@ -5,13 +5,13 @@ import Header from "../../components/Header/Header";
 import ColInfoBox from "../../components/BoxLayout/ColInfoBox";
 
 const data = [
-  { label: "문의제안", prev: 500, current: 0 },
-  { label: "High Risk", prev: 200, current: 0 },
-  { label: "불만", prev: 13, current: 0 },
-  { label: "불만지표", prev: 3000, current: 0 },
-  { label: "챗봇", prev: 583, current: 0 },
-  { label: "채팅", prev: 381, current: 0 },
-  { label: "전화", prev: 5130, current: 0 },
+  { label: "문의제안", prev: 500, current: 30 },
+  { label: "High Risk", prev: 200, current: 400 },
+  { label: "불만", prev: 13, current: 8 },
+  { label: "불만지표", prev: 151, current: 1200 },
+  { label: "챗봇", prev: 583, current: 1000 },
+  { label: "채팅", prev: 381, current: 483 },
+  { label: "전화", prev: 213, current: 1142 },
 ];
 
 const DashboardAicc = () => {
